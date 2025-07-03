@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+httpx
+pandas
+numpy
+scikit-learn
+pydantic
+requests
+openai
+nest_asyncio
+pyngrok
