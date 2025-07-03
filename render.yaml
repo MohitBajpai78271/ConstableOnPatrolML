@@ -7,4 +7,4 @@ services:
     plan: free
     envVars:
       - key: OPENAI_API_KEY
-        fromEnvVar: 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
+        value: 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
