@@ -26,6 +26,10 @@ app = FastAPI(
 )
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+@app.get("/")
+def root():
+    return {"message": "Crime + Patrol API is live"}
+
 class CrimeRecord(BaseModel):
     _id: str
     lat: str
