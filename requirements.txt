@@ -9,3 +9,4 @@ requests
 openai
 nest_asyncio
 pyngrok
+seaborn
