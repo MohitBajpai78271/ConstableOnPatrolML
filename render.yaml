@@ -7,4 +7,4 @@ services:
     plan: free
     envVars:
       - key: OPENAI_API_KEY
-        value: OPENAI_API_KEY
+        fromEnvVar: OPENAI_API_KEY
